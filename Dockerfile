@@ -6,4 +6,6 @@ RUN pip install Flask
 
 COPY . .
 
-CMD [ "python", "-m" , "server.py", "run", "--host=0.0.0.0"]
+EXPOSE 5001
+
+CMD [ "python", "-m" , "server", "run", "--host=0.0.0.0"]

@@ -121,3 +121,9 @@ a.small {
     text-decoration: underline;
     text-decoration-color: rgb(0, 255, 106);
 }
+
+img {
+    width: 64px;
+    height: auto;
+    padding: 5px;
+}

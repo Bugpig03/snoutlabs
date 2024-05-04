@@ -32,7 +32,7 @@ header {
 
 .content {
     grid-column: 2;
-    padding-top: 40px;
+    padding-top: 400px;
 }
 
 main {
@@ -123,7 +123,11 @@ a.small {
 }
 
 img {
-    width: 64px;
+    width: 128px;
     height: auto;
-    padding: 5px;
+    padding: 0px;
+    image-rendering: pixelated;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
